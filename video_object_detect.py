@@ -1,7 +1,7 @@
 import cv2
 from ultralytics import YOLO
 
-# Load your YOLO model (e.g., the fast Nano version)
+# Load your YOLO model (e.g., the fast Nano version) 
 model = YOLO("best.pt")
 
 # Open a video file (or use '0' to display from your webcam)
